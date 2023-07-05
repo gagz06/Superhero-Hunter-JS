@@ -1,0 +1,66 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  header {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Superhero details section */
+  #containerDiv {
+    display: flex; 
+  }
+  #containerDiv div{
+    border: 1px solid purple;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  
+  #imageDiv {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  #superheroSpecs {
+    flex: 1;
+  }
+  
+  #portraitImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    #containerDiv {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #imageDiv {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

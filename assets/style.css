@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  header div{
+    width: 50%;
+  }
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: mediumorchid;
+  }
+  
+  /* Home Page Styles */
+  #searchInput {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  #searchResults {
+    width: 70%;
+  }
+  
+  .superhero {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .favorite-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Superhero Page Styles */
+  #superheroDetails {
+    width: 500px;
+  }
+  
+  /* My Favorite Superheroes Page Styles */
+  #favoriteSuperheroes {
+    width: 300px;
+  }
+  
+  .remove-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #favouriteList{
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin-bottom: 10px;
+    
+    border-radius: 20px;
+  }
+  
+  hr.dashed {
+    border-top: 3px dashed #bbb;
+  }
+  #superHeroListDiv{
+    height: 500px;
+    overflow-y: auto;
+  }
+
+  #superHeroList li {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: peru;
+  }
+  #listItemLeftDiv{
+    color: white;
+    
+  }
+  
+  .row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+  }
+  #headerDiv{
+    width: 600px;
+    padding: 2px auto;
+    
+  }
+  input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: black;
+  }
+  button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+  button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  ::placeholder{
+    color: #555;
+  }
+  .result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+  }
+  #searchResults li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+  }
+  #searchResults li:hover{
+    background: #e9f3ff;
+  }

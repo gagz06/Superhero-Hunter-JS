@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Hero Hunter - Home</title>
+    <!-- Include CSS styles -->
+    <link rel="stylesheet" href="./assets/style.css">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/d8d112cec0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <!-- <div>
+                <h1>Super Hero </h1>
+            </div> -->
+            <div id="headerDiv">
+                <div class="row">
+                    <input type="text" id="input-box" autocomplete="off" placeholder="Search Super Heroes">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="result-box">
+                    <!-- <ul  id="searchResults">
+                        <li>
+                            java
+                        </li>
+                        <li>
+                            web
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+
+        <aside id="favouriteList">
+            <h2>
+                My Favourite Super Heroes
+                <!-- My Favourite Super Heroes list will be dynamically populated here -->
+            </h2>
+            <section id="favSection">
+                <div id="favDiv">
+                    <ul id="favList">
+                        <li>
+                            <div id="hero1">
+                                <label id="hero1">Hero 1</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
+
+        <section id="superHeroSection">
+            <!-- Search Results will be dynamically populated here -->
+            <div id="superHeroListDiv">
+                <ul id="superHeroList">
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/script.js"></script>
+    <script src="./node_modules/crypto-js/md5.js"></script>
+</body>
+</html>
